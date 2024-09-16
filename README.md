@@ -82,3 +82,56 @@ Eventually once it is done I do plan on talking about this in video format. I fe
 - Medium Blogs (Recommendation algorithm and Big data techniques)
 
 
+###### Only realizing this after github would not allow me to upload the config file
+The structure is something like this 
+```
+batch_size: 5
+rss_feed:
+- genres:
+  - Drama
+  keywords:
+  - found footage
+  language: ja
+  overview: In Tokyo, a Goth girl and an Internet voyeur connect in the post 9-11
+    world of surveillance and paranoia.
+  popularity: 1.096
+  rating: '3.0'
+  runtime: 98
+  similar_movies: []
+  title: Peep "TV" Show
+  tmdb_id: 210736
+- genres:
+  - Crime
+  - Thriller
+  - Drama
+  keywords:
+  - daughter
+  - journalist
+  - sadistic
+  - mass murder
+  - yellow press
+  - pop culture
+  - trauma
+  - controversy
+  - satire
+  - young couple
+  - abuse
+  language: en
+  overview: Two victims of traumatized childhoods become lovers and serial murderers
+    irresponsibly glorified by the mass media.
+  popularity: 25.963
+  rating: '3.5'
+  runtime: 118
+  similar_movies: []
+  title: Natural Born Killers
+  tmdb_id: 241
+rss_feed_url: https://letterboxd.com/fakefriend/rss/
+sleep_interval: 300
+user_preferences:
+  genre_filter: []
+  runtime_filter:
+    max: 270
+    min: 60
+  update_frequency: daily
+```
+There was alot of config file modification that I didn't get to implment yet
